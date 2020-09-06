@@ -6,6 +6,13 @@ Mirror for http://code.google.com/p/apachebench-for-multi-url/ with 'random url'
 
 Multiple URL requests for ApacheBench. You can set URL list with '-L filename'.
 
+### Pre-requisites for compilation
+
+#### On Ubuntu
+
+```
+sudo apt-get install libapr1-dev apache2-dev libssl-dev
+```
 
 ### Compile ab-multi with random url patch
 
